@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index2.css"/>
+</head>
+<body>
+    <section class="bkgro container">
+        <div >
+         <input type="text" id="screen" class="output">
+         </div>
+   
+    <div class="row">
+        <button class="btn-f" onclick="singlclear()">C</button>
+        <button class="btn-f" onclick="clearscreen()">AC</button>
+        <button class="btn-f" onclick="inputData('%')">%</button>
+         <button class="btn-right" onclick="inputData('/')">/</button>
+    </div>
+     <div class="row">
+        <button class="btn1"  onclick="inputData('7')">7</button>
+        <button class="btn1"  onclick="inputData('8')">8</button>
+        <button class="btn1"  onclick="inputData('9')">9</button>
+         <button class="btn-right"  onclick="inputData('*')">*</button>
+    </div>
+     <div class="row">
+        <button class="btn1" onclick="inputData('4')">4</button>
+        <button class="btn1" onclick="inputData('5')">5</button>
+        <button class="btn1" onclick="inputData('6')">6</button>
+         <button class="btn-right" onclick="inputData('-')" >-</button>
+    </div>
+    <div class="row">
+        <button class="btn1" onclick="inputData('1')">1</button>
+        <button class="btn1" onclick="inputData('2')">2</button>
+        <button class="btn1" onclick="inputData('3')">3</button>
+         <button class="btn-right" onclick="inputData('+')">+</button>
+    </div>
+    <div class="row">
+        <button class="btn1-z" onclick="inputData('0')">0</button>
+        <button class="btn1" onclick="inputData('.')">.</button>
+        <button class="btn-right" onclick="finalvalue()">=</button>
+       
+    </div>
+
+     </section>
+     <script src="./index2.js"></script>
+</body>
+</html>
